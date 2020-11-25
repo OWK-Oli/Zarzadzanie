@@ -17,11 +17,11 @@ public class User {
     public String getLogin() {
         return login;
     }
-
-    public String getPassword() {
+// może jednak nie pobierać hasła
+    /*public String getPassword() {
         return password;
     }
-
+*/
     public void setLogin(String login) {
         this.login = login;
     }
