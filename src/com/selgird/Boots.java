@@ -15,4 +15,16 @@ public class Boots extends Product {
     public boolean getIsNaturalSkin(){
         return  isNaturalSkin;
     }
+    @Override
+    public String toString() {
+        return "Product: {" +
+                "ID='" + id + '\'' +
+                ", productName='" + productName + '\''
+        ", price='" + price + '\'' +
+                ", weight='" + weight + '\'' +
+                ", color='" + color + '\'' +
+                ", quantiti='" + productCount + '\'' +
+                ", isNaturalSkin='" + isNaturalSkin + '\'' +
+                + '}';
+    }
 }

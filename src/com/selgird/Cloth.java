@@ -16,4 +16,16 @@ public class Cloth extends Product {
     public String getMaterial() {
         return material;
     }
+    @Override
+    public String toString() {
+        return "Product: {" +
+                "ID='" + id + '\'' +
+                ", productName='" + productName + '\''
+        ", price='" + price + '\'' +
+                ", weight='" + weight + '\'' +
+                ", color='" + color + '\'' +
+                ", quantiti='" + productCount + '\'' +
+                ", material='" + material + '\'' +
+                + '}';
+    }
 }
