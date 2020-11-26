@@ -7,7 +7,7 @@ public class Product {
     protected float weight;
     protected String color;
     protected int productCount;
-    protected Product(String id, String productName, float price, float weight, String color, int productCount){
+    public Product(String id, String productName, float price, float weight, String color, int productCount){
         this.color = color;
         this.id = id;
         this.price = price;

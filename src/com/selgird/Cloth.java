@@ -3,7 +3,7 @@ package com.selgird;
 public class Cloth extends Product {
     protected String size;
     protected String material;
-    protected Cloth(String size, String material){
+    protected Cloth(String id, String productName, float price, float weight, String color, int productCount,String size, String material){
         super(id, productName, price, weight, color, productCount);
         this.material = material;
         this.size = size;

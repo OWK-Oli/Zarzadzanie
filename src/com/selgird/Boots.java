@@ -3,7 +3,7 @@ package com.selgird;
 public class Boots extends Product {
     protected int size;
     protected boolean isNaturalSkin;
-    protected Boots(int size, boolean isNaturalSkin){
+    protected Boots(String id, String productName, float price, float weight, String color, int productCount,int size, boolean isNaturalSkin){
         super(id, productName, price, weight, color, productCount);
         this.isNaturalSkin = isNaturalSkin;
         this.size = size;
